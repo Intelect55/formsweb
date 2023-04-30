@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+    border: none;
+    color: #323232;
+
+}
+body{
+    background-image: url(/Img/retrato-de-uma-jovem-estilosa-gritando-no-megafone-isolado-sobre-fundo-roxo-rosa-gradiente.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+a, label{
+    font-size: .8rem;
+}
+a:hover{
+    color: purple;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.233);
+    width: 500px;
+    margin-left: 60%;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: black;
+}
+label{
+    font-weight: bold;
+}
+input{
+    
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+input:focus{
+    border-bottom: 2px solid purple ;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    color:white;
+    background-color: purple;
+    cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background-color: #b447cc;
+    color: white;
+    transform: 0,5s;
+}
+
+#social-container, #social-container p {
+    margin-bottom: 20px;
+}
+#social-container i {
+    height: 40px;
+    width: 40px;
+    background-color: purple;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+#social-container i:hover{
+    background-color: #b447cc;
+}
+#register-container{
+    margin-bottom: 10px;
+} 
+input::placeholder{
+    color: black;
+    font-size: 15px;
+    font-style: italic;
+}

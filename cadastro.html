@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastra-se</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="icon" href="img/Design sem nome.png">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Cadastre-se</h1>
+        <form id="register-form">
+           <div class="full-box">
+            <label class="test" for="email">E-mail</label>
+            <input class="test" type="email" name="email" id="email" placeholder="Digite seu email">
+           </div> 
+           <div class="half-box-spacing">
+            <label class="test" for="nome">Nome</label>
+            <input class="test" type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+           </div>
+           <div class="half-box">
+            <label class="test" for="lastname">Sobrenome</label>
+            <input class="test" type="text" name="lastname" id="lastname" placeholder="Digite seu sobrenome">
+           </div> 
+           <div class="half-box-spacing">
+            <label class="test" for="password">Senha</label>
+            <input class="test" type="password" name="password" id="password" placeholder="Digite sua senha">
+           </div> 
+           <div class="half-box">
+            <label class="test" for="passconfirmation">Confirme sua senha</label>
+            <input type="password" name="passconfirmation" class="test" id="passconfirmation" placeholder="Digite sua senha">
+           </div> 
+           <div class="full-box">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="agreement" id="agreement">Eu li e aceito os <a href="#">termos de uso</a></label>
+           </div> 
+           <div class="full-box">
+            <input class="test" type="submit" id="btn-submit" value="Registrar">
+           </div> 
+        </form>
+    </div>
+    <p class="error-validation-template"></p>
+</body>
+</html>
